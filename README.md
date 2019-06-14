@@ -15,11 +15,13 @@ const dotpix = require('dotpix');
 
 // Returns an object with three fields: `width`, `height` and `data`
 const image = dotpix.screenshot();
-const firstPixel = image.data.slice(0, 4);
 
+// Display the size of the image
 console.log(image.width);
 console.log(image.height);
-console.log(firstPixel);
+
+// Display the first pixel of the image (RGBA)
+console.log(image.data.slice(0, 4));
 ```
 
 ## Additional information
