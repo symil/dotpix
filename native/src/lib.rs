@@ -64,6 +64,11 @@ fn screenshot(mut cx: FunctionContext) -> JsResult<JsObject> {
     }
 }
 
+#[no_mangle]
+pub extern fn __cxa_pure_virtual() {
+    loop{};
+}
+
 register_module!(mut cx, {
     cx.export_function("screenshot", screenshot)
 });
