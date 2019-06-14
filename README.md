@@ -22,7 +22,9 @@ console.log(image.height);
 console.log(firstPixel);
 ```
 
-## Requirements
+## Additional information
 
-- Rust must be installed
+dotpix is written in Rust and uses [Neon](https://github.com/neon-bindings/neon) for the Node.js bindings.
+
+- Rust must be installed in order to compile dotpix
 - To use with electron, follow [this guide](https://neon-bindings.com/docs/electron-apps)
