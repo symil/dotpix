@@ -1,6 +1,6 @@
 [package]
 name = "dotpix"
-version = "0.4.0"
+version = "0.4.1"
 authors = ["Sylvain Milan <milan.sylvain@gmail.com>"]
 license = "MIT"
 build = "build.rs"
@@ -11,8 +11,8 @@ name = "dotpix"
 crate-type = ["dylib"]
 
 [build-dependencies]
-neon-build = "0.2.0"
+neon-build = "0.3"
 
 [dependencies]
-neon = "0.2.0"
+neon = "0.3"
 scrap = "0.5"

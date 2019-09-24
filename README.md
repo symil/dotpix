@@ -5,7 +5,7 @@ Module to take screenshots with Node.js.
 ## Install
 
 ```
-npm install dotpix
+npm install dotpix --save
 ```
 
 ## Usage
